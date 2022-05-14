@@ -3,6 +3,7 @@
   list-style: none;
   padding: 0;
 }
+
 .item {
   display: flex;
   align-items: center;
@@ -12,6 +13,7 @@
   border: 1px solid black;
   border-radius: 50px;
 }
+
 .status {
   display: block;
   width: 10px;

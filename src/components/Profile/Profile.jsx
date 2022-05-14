@@ -12,7 +12,6 @@ export const Profile = () => {
         <p className={styles.tag}>@{tag}</p>
         <p className={styles.location}>{location}</p>
       </div>
-
       <ul className={styles.stats}>
         <li className={styles.stats_item}>
           <span className={styles.label}>Followers</span>
@@ -28,8 +27,8 @@ export const Profile = () => {
         </li>
       </ul>
     </div>
-  );
-};
+  )
+}
 
 Profile.propTypes = {
   avatar: PropTypes.string,
@@ -37,4 +36,4 @@ Profile.propTypes = {
   tag: PropTypes.string,
   location: PropTypes.string,
   state: PropTypes.object,
-};
+}
