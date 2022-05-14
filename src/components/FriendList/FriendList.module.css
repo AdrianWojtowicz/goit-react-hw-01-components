@@ -8,7 +8,9 @@
   align-items: center;
   margin-bottom: 10px;
   padding: 10px;
-  box-shadow: 0px 0px 5px -1px rgba(54, 103, 105, 0.7);
+  box-shadow: 0px 0px 15px -1px rgba(54, 103, 105, 0.7);
+  border: 1px solid black;
+  border-radius: 50px;
 }
 .status {
   display: block;
@@ -20,8 +22,8 @@
 
 .avatar {
   height: 48px;
-  border-radius: 5px;
-  background-color: rgb(108, 244, 87);
+  border-radius: 25px;
+  background-color: rgb(166, 242, 130);
   margin-right: 20px;
   padding: 5px;
 }
