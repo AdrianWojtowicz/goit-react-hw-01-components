@@ -1,5 +1,6 @@
 import { Profile } from "../components/Profile/Profile";
 import { Statistics } from "../components/Statistics/Statistics";
+import { FriendList } from "../components/FriendList/FriendList";
 
 export const App = () => {
   return (
@@ -12,7 +13,8 @@ export const App = () => {
         alignItems: 'center',
       }}>
       <Profile/>
-      <Statistics/>
+      <Statistics />
+      <FriendList/>
     </div>
   );
 };
