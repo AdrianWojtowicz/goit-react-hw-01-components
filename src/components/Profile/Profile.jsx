@@ -36,9 +36,5 @@ Profile.propTypes = {
   username: PropTypes.string,
   tag: PropTypes.string,
   location: PropTypes.string,
-  state: PropTypes.shape({
-    followers: PropTypes.number,
-    view: PropTypes.number,
-    likes: PropTypes.number,
-  }),
-}
+  state: PropTypes.object,
+};

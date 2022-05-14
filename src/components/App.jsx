@@ -1,4 +1,5 @@
 import { Profile } from "../components/Profile/Profile";
+import { Statistics } from "../components/Statistics/Statistics";
 
 export const App = () => {
   return (
@@ -6,10 +7,12 @@ export const App = () => {
       style={{
         height: '100vh',
         display: 'flex',
-        justifyContent: 'center',
+        flexDirection: "column",
+        justifyContent: 'space-around',
         alignItems: 'center',
       }}>
       <Profile/>
+      <Statistics/>
     </div>
   );
 };
